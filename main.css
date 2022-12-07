@@ -1,0 +1,197 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header,
+section h2,
+section h3,
+form button,
+footer {
+    font-family: 'Montserrat', sans-serif;  
+    font-weight: normal; 
+}
+
+header {
+    padding: 16px 10px;
+    background-color: rgb(26, 73, 173);;
+    color: #ecf0f1;
+}
+
+header nav li {
+    display: inline;
+    margin-left: 16px;
+    font-size: 18px;
+}
+
+header nav li a {  
+    color: #ecf0f1;
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header .container,
+section .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header nav li a {  
+    color: #ecf0f1;
+    text-decoration: none;
+}
+
+.speakers-list img {
+    height: 200px;  
+    margin-left: 50px;  
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.speakers-list .speaker-name {
+    display: inline;
+    margin-right: 8px;
+    vertical-align: middle;   
+}
+
+.speakers-list a {
+    color: #ecf0f1;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;  
+    margin-left: 100px;      
+}
+
+section .container {
+    align-items: flex-start;
+}
+
+section .speaker .speakers-list{  
+    padding: 32px 16px;      
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.event-img {
+    margin-right: 32px;
+    max-width: 600px;
+    display: inline-block;
+    vertical-align: middle;   
+}
+
+section .container h2 {
+    vertical-align: middle;
+    font-size: 42px;
+    font-weight: bolder;
+    margin-top: 50px;  
+    color: rgb(26, 73, 173);        
+}
+
+section .container p{    
+    box-sizing: border-box;
+    margin-top: 0;    
+    display: block;
+    font-size: 20px;
+    font-family: "Montserrat", Sans-serif;
+    font-weight: 500;
+    color: rgb(106, 124, 146);
+}
+
+#event {
+    background-color:#f6f6f6;            
+}
+
+#speaker,
+#tickets {
+    background-color: rgb(26, 73, 173);   
+}
+
+section .speaker h2,
+section .tickets h2 {
+    vertical-align: middle;
+    font-size: 42px;
+    font-weight: bolder;
+    margin-top: 16px;  
+    margin-left: 16px;
+    color: rgb(219, 221, 224); 
+    padding: 32px 32px;   
+}
+
+section .schedule h2 {
+    vertical-align: middle;
+    font-size: 42px;
+    font-weight: bolder;
+    padding: 32px 32px;
+    color: rgb(26, 73, 173);    
+}
+
+section .schedule {
+    background-color: #f6f6f6;
+}
+
+table {
+    text-align: left;
+    vertical-align: middle;
+    border-collapse: collapse; 
+    background-color: #f6f6f6;
+    padding: 32px 32px;    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+td, th {
+    border: 1px solid #999;
+    padding: 20px;
+    font-family: 'Montserrat','sans-serif';
+}
+
+#tickets .container {
+    display: block;
+}
+
+.get-tickets {
+    display: flex;
+    justify-content: center;  
+    padding: 32px 32px  
+}
+
+form input,
+button {
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px 8px ;
+    text-align: center;
+    font-family: "Montserrat", Sans-serif;
+}
+
+form button {
+    background-color: #182C61;
+    color: #ecf0f1;    
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #314e9e;    
+}
+
+form input{
+    outline-color: #182C61;
+}
+  
+footer {
+    background-color: #f6f6f6;
+    color: rgb(26, 73, 173); 
+    font-weight: 700;
+    padding: 16px 0;
+}
